@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        familymoo : {
+          hblue : "#4FA6CF",
+        }
       },
     },
   },

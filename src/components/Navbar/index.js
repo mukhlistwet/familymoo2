@@ -23,7 +23,7 @@ const Navbar = () =>{
     };
     return(
         <>
-            <header className=" fixed flex z-10 bg-gradient-to-r from-familymoo-hblue to-cyan-500 flex-wrap gap-3 justify-between items-center px-28 py-2 w-full bg-blend-normal  max-md:px-5 max-md:max-w-full">
+            <header className=" fixed flex z-10 bg-gradient-to-r from-familymoo-hblue to-sky-500 flex-wrap gap-3 justify-between items-center px-28 py-2 w-full bg-blend-normal  max-md:px-5 max-md:max-w-full">
                 
                 <Image src="/logo.png"
                     width={100} height={100}
@@ -146,11 +146,19 @@ const Navbar = () =>{
                     </div>
                 </nav>
                 
-
+                            
                 <div className="hidden md:flex flex-wrap gap-6 items-center self-stretch my-auto min-w-[240px] max-md:max-w-full">
                     <SearchBar/>
-                    <Link href="/uploadstruk" className="text-white self-stretch px-3 py-2.5 my-auto bg-yellow-500 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-200  font-semibold rounded-lg text-xs  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Upload Struk</Link>
-                    <Link href="/login" className="text-white self-stretch px-3 py-2.5 my-auto bg-sky-900 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-200  font-semibold rounded-lg text-xs  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Daftar/Masuk</Link>
+                    <Link href="/uploadstruk" 
+                        className="text-white self-stretch px-3 py-2.5 my-auto bg-yellow-500 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-200  
+                        font-semibold rounded-lg text-xs  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none
+                         dark:focus:ring-blue-800">Upload Struk
+                    </Link>
+                    <Link href="/signup" 
+                        className="text-white self-stretch px-3 py-2.5 my-auto bg-sky-900 hover:bg-sky-600 focus:ring-4 focus:ring-sky-200  
+                        font-semibold rounded-lg text-xs  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                            Daftar/Masuk
+                    </Link>
                     
                     
                     <div className="flex gap-2.5 justify-center items-center self-stretch px-2 my-auto w-10 h-10 bg-blue-100 rounded-[72px]">
@@ -199,13 +207,13 @@ const Navbar = () =>{
                 </div>
 
                 {mobileMenuOpen && (
-                    <div className="md:hidden absolute top-12 left-auto right-0 bg-cyan-500">
+                    <div className="md:hidden absolute top-12 left-auto right-0 bg-sky-500">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <Link href="/" legacyBehavior>
+                        <Link href="/" legacyBehavior className="">
                         <a
                             className="text-gray-300 hover:bg-gray-700 hover:text-white
-                            block px-3 py-2 rounded-md text-base font-medium
-                            border-b-fuchsia-400"
+                            block px-3 py-2  text-base font-medium
+                            border-b-2 border-blue-950"
                         >
                             Home
                         </a>
@@ -215,7 +223,7 @@ const Navbar = () =>{
                         {/* Mobile Dropdown: Services */}
                         <button
                         onClick={() => setDropdownServicesOpen(!dropdownServicesOpen)}
-                        className="block w-full text-left text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+                        className="block w-full text-left text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 border-b-2 border-blue-950 text-base font-medium"
                         >
                         Services
                         </button>
@@ -242,7 +250,7 @@ const Navbar = () =>{
                         {/* Mobile Dropdown: Products */}
                         <button
                         onClick={() => setDropdownProductsOpen(!dropdownProductsOpen)}
-                        className="block border-b-cyan-900  w-full text-left text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+                        className="block border-b-cyan-900  w-full text-left text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 border-b-2 border-blue-950 text-base font-medium"
                         >
                         Products
                         </button>

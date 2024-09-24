@@ -27,7 +27,7 @@ export default function TanpaPassword() {
 
               <form class="max-w-md mx-auto">
                 <div class="mb-6">
-                  <label for="email" class="block mb-2  text-sm font-sans font-bold text-lime-900 dark:text-white">
+                  <label Hrmlfor="email" class="block mb-2  text-sm font-sans font-bold text-lime-900 dark:text-white">
                     Nomor Ponsel (Terhubung Whatsapp)<a class="text-red-600">*</a>
                   </label>
                   <input
@@ -39,7 +39,7 @@ export default function TanpaPassword() {
                   />
                 </div>
                 <div class="mb-6">
-                  <label for="confirm_password large" class="block mb-2  text-sm font-sans font-bold text-lime-900 dark:text-white">
+                  <label Hrmlfor="confirm_password large" class="block mb-2  text-sm font-sans font-bold text-lime-900 dark:text-white">
                     Pertanyaan Keamanan<a class="text-red-600">*</a>
                   </label>
                   <select
@@ -56,7 +56,7 @@ export default function TanpaPassword() {
                   <p class="text-xs italic font-sans font-normal text-cyan-700 dark:text-white">Digunakan apabila lupa password</p>
                 </div>
                 <div class="mb-6">
-                  <label for="large" class="block mb-2  text-sm font-sans font-bold text-lime-900 dark:text-white">
+                  <label Hrmlfor="large" class="block mb-2  text-sm font-sans font-bold text-lime-900 dark:text-white">
                     Jawaban<a class="text-red-600">*</a>
                   </label>
                   <input

@@ -3,11 +3,12 @@ import ContactLink from './ContactLink';
 import FooterLink from './FooterLink';
 
 const contactLinks = [
-  { icon: "waicon.png", text: "WhatsApp Official", href: "http://google.com" },
-  { icon: "mfb.png", text: "Facebook Messenger", href: "http://google.com" },
-  { icon: "fonterrafooter.png", text: "Careline Bebas Pulsa", href: "http://google.com" }
+  { icon: "/waicon.png", text: "WhatsApp Official", href: "http://google.com" },
+  { icon: "/mfb.png", text: "Facebook Messenger", href: "http://google.com" },
+  { icon: "/fonterrafooter.png", text: "Careline Bebas Pulsa", href: "http://google.com" }
 ];
 
+const base_url = process.env.NEXT_PUBLIC_URL
 const footerLinks = [
   "Kebijakan Privasi",
   "Syarat & Ketentuan",
@@ -22,8 +23,8 @@ function Footer() {
       <div className="flex flex-col max-md:max-w-full">
         <div className="flex flex-wrap gap-10 items-center max-md:max-w-full">
           <div className="flex flex-wrap gap-5 items-end self-stretch my-auto min-w-[240px] max-md:max-w-full">
-            <img loading="lazy" src="logofooter.png" alt="" className="object-contain shrink-0 aspect-[2.13] w-[83px]" />
-            <img loading="lazy" src="logobrandfooter.png" alt="" className="object-contain aspect-[8.85] min-w-[240px] w-[391px]" />
+            <img loading="lazy" src="/logofooter.png" alt="" className="object-contain shrink-0 aspect-[2.13] w-[83px]" />
+            <img loading="lazy" src="/logobrandfooter.png" alt="" className="object-contain aspect-[8.85] min-w-[240px] w-[391px]" />
           </div>
           <nav className="flex flex-wrap gap-3 justify-center self-stretch my-auto min-w-[240px] w-[492px] max-md:max-w-full">
             {contactLinks.map((link, index) => (

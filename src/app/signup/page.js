@@ -29,12 +29,15 @@ export default function Signup() {
                   className="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="contoh:0813xxx"
                 />
-                <button
-                  type="button"
-                  className=" w-full justify-center text-white bg-gradient-to-r font-sans from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg  px-5 py-2.5 me-2 mb-2 mt-4"
-                >
-                  Lanjutkan
-                </button>
+                <Link href="/signup/masukan_password">
+                  <button
+                    type="button"
+                    className=" w-full justify-center text-white bg-gradient-to-r font-sans from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg  px-5 py-2.5 me-2 mb-2 mt-4"
+                  >
+                    Lanjutkan
+                  </button>
+                </Link>
+                
                 {/* <p id="helper-text-explanation" className="text-center mt-2  text-gray-500 dark:text-gray-400">
                  
                   <a href="#" className="text-red-600 font-sans font-medium underline hover:text-blue-600 dark:text-blue-500">

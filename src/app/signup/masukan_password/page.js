@@ -13,7 +13,7 @@ export default function MasukPassword() {
   return (
     <>
       <Navbar />
-      <div class=" bgsignup bg-cover bg-center  min-h-0 md:min-h-full" style={{ height: "39rem" }}>
+      <div class=" bgsignup bg-cover bg-center  md:min-h-screen  py-40">
         <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
           {/* <a
             href="#"
@@ -35,7 +35,7 @@ export default function MasukPassword() {
               <a class="text-md font-sans font-bold text-grey-900">Masukan Password</a>
               <form class="max-w-md mx-auto">
                 <div class="mb-6">
-                  <label for="password" class="block mb-2  text-sm font-sans font-bold text-lime-900 dark:text-white">
+                  <label Hrmlfor="password" class="block mb-2  text-sm font-sans font-bold text-lime-900 dark:text-white">
                     Password
                   </label>
                   <div className="relative container mx-auto ">
@@ -70,7 +70,7 @@ export default function MasukPassword() {
                 </div>
                 <p id="helper-text-explanation" class="text-center mt-2  text-gray-500 dark:text-gray-400">
                   {" "}
-                  <a href="#" class="text-cyan-900 font-sans font-medium hover:text-blue-600 dark:text-blue-500">
+                  <a href="/signup" class="text-cyan-900 font-sans font-medium hover:text-blue-600 dark:text-blue-500">
                     Kembali
                   </a>
                 </p>
@@ -82,7 +82,7 @@ export default function MasukPassword() {
                 </button>
                 <p id="helper-text-explanation" class="text-end mt-2  text-gray-500 dark:text-gray-400">
                   {" "}
-                  <a href="#" class=" text-red-600 text-sm font-sans font-medium underline hover:text-blue-600 dark:text-blue-500">
+                  <a href="/signup/lupa_password" class=" text-red-600 text-sm font-sans font-medium underline hover:text-blue-600 dark:text-blue-500">
                     Lupa Password
                   </a>
                 </p>

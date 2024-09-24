@@ -34,7 +34,7 @@ export default function Daftar() {
               <form class="max-w-xl mx-auto">
                 <div class="grid gap-6 mb-6 md:grid-cols-2">
                   <div>
-                    <label for="first_name" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    <label Hrmlfor="first_name" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
                       Nama Depan<a class="text-red-600">*</a>
                     </label>
                     <input
@@ -47,7 +47,7 @@ export default function Daftar() {
                     />
                   </div>
                   <div>
-                    <label for="last_name" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    <label Hrmlfor="last_name" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
                       Nama Belakang<a class="text-red-600">*</a>
                     </label>
                     <input
@@ -61,7 +61,7 @@ export default function Daftar() {
                   </div>
                 </div>
                 <div class="mb-6">
-                  <label for="email" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
+                  <label Hrmlfor="email" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
                     Nomor Ponsel (Terhubung Whatsapp)<a class="text-red-600">*</a>
                   </label>
                   <input
@@ -74,7 +74,7 @@ export default function Daftar() {
                   />
                 </div>
                 <div class="mb-6">
-                  <label for="password" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                  <label Hrmlfor="password" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
                     Password<a class="text-red-600">*</a>
                   </label>
                   <div className="relative container mx-auto ">
@@ -108,7 +108,7 @@ export default function Daftar() {
                   </div>
                 </div>
                 <div class="mb-6">
-                  <label for="confirm_password large" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                  <label Hrmlfor="confirm_password large" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
                     Pertanyaan Keamanan<a class="text-red-600">*</a>
                   </label>
                   <select
@@ -125,7 +125,7 @@ export default function Daftar() {
                   <p class="text-xs italic font-sans font-normal text-cyan-700 dark:text-white">Digunakan apabila lupa password</p>
                 </div>
                 <div class="mb-6">
-                  <label for="large" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                  <label Hrmlfor="large" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
                     Jawaban<a class="text-red-600">*</a>
                   </label>
                   <input
@@ -139,7 +139,7 @@ export default function Daftar() {
                 </div>
                 <div class="grid gap-6 mb-6 md:grid-cols-2">
                   <div>
-                    <label for="first_name" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    <label Hrmlfor="first_name" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
                       Isi jika ada Kode Referral
                     </label>
                     <select
@@ -155,7 +155,7 @@ export default function Daftar() {
                     </select>
                   </div>
                   <div>
-                    <label for="last_name" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    <label Hrmlfor="last_name" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
                       -
                     </label>
                     <input
@@ -178,7 +178,7 @@ export default function Daftar() {
                       required
                     />
                   </div>
-                  <label for="remember" class="ms-2  text-sm font-sans font-medium text-cyan-900 dark:text-gray-300">
+                  <label Hrmlfor="remember" class="ms-2  text-sm font-sans font-medium text-cyan-900 dark:text-gray-300">
                     Saya Menyetujui Syarat dan Ketentuan Serta Kebijakan Privasi dari Fonterra Brands Indonesia. <br />
                     <a href="#" class="text-red-600 underline hover:text-blue-600 dark:text-blue-500">
                       Cek disini
@@ -196,7 +196,7 @@ export default function Daftar() {
                       required
                     />
                   </div>
-                  <label for="remember" class="ms-2  text-sm font-sans font-normal text-cyan-900 dark:text-gray-300">
+                  <label Hrmlfor="remember" class="ms-2  text-sm font-sans font-normal text-cyan-900 dark:text-gray-300">
                     Saya bersedia menerima segala penawaran, promosi, sample, dan komunikasi pemasaran terbaru lainnya dari Fonterra Brands Indonesia melalui email, SMS, Telepon, dan Whatsapp.
                   </label>
                 </div>

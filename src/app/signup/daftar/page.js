@@ -1,9 +1,8 @@
 "use client";
 import { useState } from "react";
 import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-
 import { DatePicker } from "@nextui-org/date-picker";
+import Navbar from "@/components/Navbar";
 export default function Daftar() {
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
@@ -14,7 +13,7 @@ export default function Daftar() {
     <>
       <Navbar />
       <div class="bg-hero bg-no-repeat  bg-cover bg-center h-full">
-        <div class="flex flex-col items-center justify-center px-6 py-10 mx-auto ">
+        <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
           {/* <a
             href="#"
             class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
@@ -35,7 +34,7 @@ export default function Daftar() {
               <form class="max-w-xl mx-auto">
                 <div class="grid gap-6 mb-6 md:grid-cols-2">
                   <div>
-                    <label Hrmlfor="first_name" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    <label for="first_name" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
                       Nama Depan<a class="text-red-600">*</a>
                     </label>
                     <input
@@ -48,7 +47,7 @@ export default function Daftar() {
                     />
                   </div>
                   <div>
-                    <label Hrmlfor="last_name" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    <label for="last_name" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
                       Nama Belakang<a class="text-red-600">*</a>
                     </label>
                     <input
@@ -62,7 +61,7 @@ export default function Daftar() {
                   </div>
                 </div>
                 <div class="mb-6">
-                  <label Hrmlfor="email" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
+                  <label for="email" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
                     Nomor Ponsel (Terhubung Whatsapp)<a class="text-red-600">*</a>
                   </label>
                   <input
@@ -75,7 +74,7 @@ export default function Daftar() {
                   />
                 </div>
                 <div class="mb-6">
-                  <label Hrmlfor="password" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                  <label for="password" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
                     Password<a class="text-red-600">*</a>
                   </label>
                   <div className="relative container mx-auto ">
@@ -109,7 +108,7 @@ export default function Daftar() {
                   </div>
                 </div>
                 <div class="mb-6">
-                  <label Hrmlfor="confirm_password large" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                  <label for="confirm_password large" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
                     Pertanyaan Keamanan<a class="text-red-600">*</a>
                   </label>
                   <select
@@ -126,7 +125,7 @@ export default function Daftar() {
                   <p class="text-xs italic font-sans font-normal text-cyan-700 dark:text-white">Digunakan apabila lupa password</p>
                 </div>
                 <div class="mb-6">
-                  <label Hrmlfor="large" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                  <label for="large" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
                     Jawaban<a class="text-red-600">*</a>
                   </label>
                   <input
@@ -140,7 +139,7 @@ export default function Daftar() {
                 </div>
                 <div class="grid gap-6 mb-6 md:grid-cols-2">
                   <div>
-                    <label Hrmlfor="first_name" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    <label for="first_name" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
                       Isi jika ada Kode Referral
                     </label>
                     <select
@@ -156,7 +155,7 @@ export default function Daftar() {
                     </select>
                   </div>
                   <div>
-                    <label Hrmlfor="last_name" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    <label for="last_name" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
                       -
                     </label>
                     <input
@@ -179,7 +178,7 @@ export default function Daftar() {
                       required
                     />
                   </div>
-                  <label Hrmlfor="remember" class="ms-2  text-sm font-sans font-medium text-cyan-900 dark:text-gray-300">
+                  <label for="remember" class="ms-2  text-sm font-sans font-medium text-cyan-900 dark:text-gray-300">
                     Saya Menyetujui Syarat dan Ketentuan Serta Kebijakan Privasi dari Fonterra Brands Indonesia. <br />
                     <a href="#" class="text-red-600 underline hover:text-blue-600 dark:text-blue-500">
                       Cek disini
@@ -197,7 +196,7 @@ export default function Daftar() {
                       required
                     />
                   </div>
-                  <label Hrmlfor="remember" class="ms-2  text-sm font-sans font-normal text-cyan-900 dark:text-gray-300">
+                  <label for="remember" class="ms-2  text-sm font-sans font-normal text-cyan-900 dark:text-gray-300">
                     Saya bersedia menerima segala penawaran, promosi, sample, dan komunikasi pemasaran terbaru lainnya dari Fonterra Brands Indonesia melalui email, SMS, Telepon, dan Whatsapp.
                   </label>
                 </div>

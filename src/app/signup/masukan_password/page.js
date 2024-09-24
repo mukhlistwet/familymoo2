@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+
+import Navbar from "@/components/Navbar";
 
 export default function MasukPassword() {
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
@@ -11,7 +12,7 @@ export default function MasukPassword() {
   }
   return (
     <>
-      <Header />
+      <Navbar />
       <div class=" bgsignup bg-cover bg-center  min-h-0 md:min-h-full" style={{ height: "39rem" }}>
         <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
           {/* <a

@@ -13,8 +13,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "FamilyMoo Apps",
-  description: "FamilyMoo Apps",
+  title: "FamilyMOO Apps",
+  description: "FamilyMOO Apps",
 };
 
 export default function RootLayout({ children }) {

@@ -2,6 +2,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
+import LandingPage from "./landing_page/page";
 
 export default function Home() {
   return (
@@ -11,9 +12,9 @@ export default function Home() {
           <Navbar/>
       </section>
       <section>
-        <div className="h-screen">
+        <LandingPage/>
 
-        </div>
+       
       </section>
       <section>
         <Footer/>

@@ -13,37 +13,37 @@ export default function MasukPassword() {
   return (
     <>
       <Navbar />
-      <div class=" bgsignup bg-cover bg-center  md:min-h-screen  py-40">
-        <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
+      <div className=" bgsignup bg-cover bg-center  md:min-h-screen  py-40">
+        <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
           {/* <a
             href="#"
-            class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
+            className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
           >
             <img
-              class="w-8 h-8 mr-2"
+              className="w-8 h-8 mr-2"
               src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
               alt="logo"
             />
             Flowbite
           </a> */}
           <div
-            class="w-full bg-white rounded-lg shadow dark:border md:mt-20 sm:max-w-xl
+            className="w-full bg-white rounded-lg shadow dark:border md:mt-20 sm:max-w-xl
            xl:p-0 dark:bg-gray-800 dark:border-gray-700"
           >
-            <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-              <h1 class="mb-1 font-sans font-bold leading-tight tracking-tight text-cyan-700 md:text-3xl dark:text-white">Daftar/Masuk</h1>
-              <a class="text-md font-sans font-bold text-grey-900">Masukan Password</a>
-              <form class="max-w-md mx-auto">
-                <div class="mb-6">
-                  <label Hrmlfor="password" class="block mb-2  text-sm font-sans font-bold text-lime-900 dark:text-white">
+            <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+              <h1 className="mb-1 font-sans font-bold leading-tight tracking-tight text-cyan-700 md:text-3xl dark:text-white">Daftar/Masuk</h1>
+              <a className="text-md font-sans font-bold text-grey-900">Masukan Password</a>
+              <form className="max-w-md mx-auto">
+                <div className="mb-6">
+                  <label Hrmlfor="password" className="block mb-2  text-sm font-sans font-bold text-lime-900 dark:text-white">
                     Password
                   </label>
-                  <div className="relative container mx-auto ">
+                  <div classNameName="relative container mx-auto ">
                     <input
                       id="password"
                       size="lg"
                       type={isPasswordVisible ? "text" : "password"}
-                      class="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 py-2.5 text-base  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      className="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 py-2.5 text-base  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="•••••••••"
                     />
                     <button className=" absolute inset-y-0 right-0 flex items-center px-4 text-gray-600" onClick={togglePasswordVisibility}>
@@ -68,21 +68,21 @@ export default function MasukPassword() {
                     </button>
                   </div>
                 </div>
-                <p id="helper-text-explanation" class="text-center mt-2  text-gray-500 dark:text-gray-400">
+                <p id="helper-text-explanation" className="text-center mt-2  text-gray-500 dark:text-gray-400">
                   {" "}
-                  <a href="/signup" class="text-cyan-900 font-sans font-medium hover:text-blue-600 dark:text-blue-500">
+                  <a href="/signup" className="text-cyan-900 font-sans font-medium hover:text-blue-600 dark:text-blue-500">
                     Kembali
                   </a>
                 </p>
                 <button
                   type="button"
-                  class=" w-full justify-center text-white bg-gradient-to-r font-sans from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg  px-5 py-2.5 me-2 mb-2 mt-4"
+                  className=" w-full justify-center text-white bg-gradient-to-r font-sans from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg  px-5 py-2.5 me-2 mb-2 mt-4"
                 >
                   Lanjutkan
                 </button>
-                <p id="helper-text-explanation" class="text-end mt-2  text-gray-500 dark:text-gray-400">
+                <p id="helper-text-explanation" className="text-end mt-2  text-gray-500 dark:text-gray-400">
                   {" "}
-                  <a href="/signup/lupa_password" class=" text-red-600 text-sm font-sans font-medium underline hover:text-blue-600 dark:text-blue-500">
+                  <a href="/signup/lupa_password" className=" text-red-600 text-sm font-sans font-medium underline hover:text-blue-600 dark:text-blue-500">
                     Lupa Password
                   </a>
                 </p>

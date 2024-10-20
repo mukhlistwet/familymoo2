@@ -22,7 +22,7 @@ const Carousel = ({ slides }) => {
   };
 
   return (
-    <div className="relative w-full mx-auto ">
+    <div className="relative w-full mx-auto mt-10">
       <div className="overflow-hidden">
         {/* Image */}
         <img src={slides[currentIndex].image} alt={slides[currentIndex].alt} className="w-full object-cover " />

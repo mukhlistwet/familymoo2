@@ -21,14 +21,14 @@ import Navbar from "@/components/Navbar";
 const LandingPage = () => {
   const slides = [
     { image: "slide1.png", alt: "Product 1" },
-    { image: "bghome.png", alt: "Product 2" },
-    { image: "slide1.png", alt: "Product 3" },
+    { image: "slide3.png", alt: "Product 2" },
+    { image: "slide2.png", alt: "Product 3" },
   ];
 
   return (
     <div className="flex flex-col">
       <div className="flex overflow-hidden flex-col w-full max-md:max-w-full">
-        <Navbar/>
+        <Navbar />
         <main className="">
           <Carousel slides={slides} />
           <ContentSection />

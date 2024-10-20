@@ -1,6 +1,8 @@
 import { useState } from "react";
 import ProdukAnlene from "./pro_anlene";
-import ProdukAnlene1 from "./pro_anmum";
+import ProdukAnmum from "./pro_anmum";
+import ProdukBoneeto from "./pro_boneeto";
+import ProdukAnchor from "./pro_anchor";
 import EventPromo from "./EventPromo";
 import Image from "next/image"; // Menggunakan Next.js Image component untuk gambar
 
@@ -10,24 +12,24 @@ export default function LogoNavTabs() {
   return (
     <div className="container mx-auto p-5">
       {/* Logo Navigation */}
-      <div className="flex space-x-4 gap-32 mb-6 justify-center">
+      <div className="flex flex-wrap justify-center space-x-4 gap-4 sm:gap-20 mb-6">
         <button onClick={() => setActiveTab(1)} className="focus:outline-none">
           <Image
             src="/logo/anlene.png"
             alt="Logo 1"
-            width={150} // ukuran logo
-            height={50}
-            className={`rounded-lg ${activeTab === 1 ? "shadow-lg shadow-cyan-500/50" : ""}`}
+            width={100} // Smaller logo on mobile
+            height={40}
+            className={`rounded-lg ${activeTab === 1 ? "shadow-lg shadow-lime-500/50" : ""}`}
           />
         </button>
         <button onClick={() => setActiveTab(2)} className="focus:outline-none">
-          <Image src="/logo/anmum.png" alt="Logo 2" width={150} height={50} className={`rounded-lg ${activeTab === 2 ? "ring-2 ring-blue-500" : ""}`} />
+          <Image src="/logo/anmum.png" alt="Logo 2" width={100} height={40} className={`rounded-lg ${activeTab === 2 ? "shadow-lg shadow-purple-500/50" : ""}`} />
         </button>
         <button onClick={() => setActiveTab(3)} className="focus:outline-none">
-          <Image src="/logo/boneto.png" alt="Logo 3" width={150} height={50} className={`rounded-lg ${activeTab === 3 ? "ring-2 ring-blue-500" : ""}`} />
+          <Image src="/logo/boneto.png" alt="Logo 3" width={100} height={40} className={`rounded-lg ${activeTab === 3 ? "shadow-lg shadow-cyan-500/50" : ""}`} />
         </button>
         <button onClick={() => setActiveTab(4)} className="focus:outline-none">
-          <Image src="/logo/anchor.png" alt="Logo 4" width={150} height={50} className={`rounded-lg ${activeTab === 4 ? "ring-2 ring-blue-500" : ""}`} />
+          <Image src="/logo/anchor.png" alt="Logo 4" width={100} height={40} className={`rounded-lg ${activeTab === 4 ? "shadow-lg shadow-red-500/50" : ""}`} />
         </button>
       </div>
 
@@ -41,22 +43,20 @@ export default function LogoNavTabs() {
         )}
         {activeTab === 2 && (
           <div>
-            <div>
-              <EventPromo />
-              <ProdukAnlene1 />
-            </div>
+            <EventPromo />
+            <ProdukAnmum />
           </div>
         )}
         {activeTab === 3 && (
           <div>
-            <h2 className="text-xl font-bold">Tab 3 Content</h2>
-            <p>Konten untuk tab 3.</p>
+            <EventPromo />
+            <ProdukBoneeto />
           </div>
         )}
         {activeTab === 4 && (
           <div>
-            <h2 className="text-xl font-bold">Tab 4 Content</h2>
-            <p>Konten untuk tab 4.</p>
+            <EventPromo />
+            <ProdukAnchor />
           </div>
         )}
       </div>

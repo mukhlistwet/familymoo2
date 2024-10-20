@@ -12,77 +12,77 @@ export default function Daftar() {
   return (
     <>
       <Navbar />
-      <div class="bg-hero bg-no-repeat  bg-cover bg-center h-full">
-        <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
+      <div className="bg-hero bg-no-repeat  bg-cover bg-center h-full">
+        <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
           {/* <a
             href="#"
-            class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
+            className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
           >
             <img
-              class="w-8 h-8 mr-2"
+              className="w-8 h-8 mr-2"
               src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
               alt="logo"
             />
             Flowbite
           </a> */}
-          <div class="w-full bg-white rounded-lg shadow dark:border md:mt-6 mb-6 sm:max-w-2xl xl:p-0 dark:bg-gray-800 dark:border-gray-700">
-            <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-              <h1 class="text-3xl font-bold leading-tight tracking-tight text-lg font-sans font-bold text-cyan-800 md:text-3xl dark:text-white text-center">Yuk Daftar Sekarang</h1>
-              <p class="text-md font-sans font-bold text-grey-900 pl-3">Masuk/Daftar</p>
+          <div className="w-full bg-white rounded-lg shadow dark:border md:mt-6 mb-6 sm:max-w-2xl xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+            <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+              <h1 className="text-3xl font-bold leading-tight tracking-tight text-lg font-sans font-bold text-cyan-800 md:text-3xl dark:text-white text-center">Yuk Daftar Sekarang</h1>
+              <p className="text-md font-sans font-bold text-grey-900 pl-3">Masuk/Daftar</p>
               {/* tes */}
 
-              <form class="max-w-xl mx-auto">
-                <div class="grid gap-6 mb-6 md:grid-cols-2">
+              <form className="max-w-xl mx-auto">
+                <div className="grid gap-6 mb-6 md:grid-cols-2">
                   <div>
-                    <label Hrmlfor="first_name" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
-                      Nama Depan<a class="text-red-600">*</a>
+                    <label Hrmlfor="first_name" className="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
+                      Nama Depan<a className="text-red-600">*</a>
                     </label>
                     <input
                       type="text"
                       id="first_name"
                       size="lg"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      className="bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="John"
                       required
                     />
                   </div>
                   <div>
-                    <label Hrmlfor="last_name" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
-                      Nama Belakang<a class="text-red-600">*</a>
+                    <label Hrmlfor="last_name" className="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
+                      Nama Belakang<a className="text-red-600">*</a>
                     </label>
                     <input
                       type="text"
                       id="last_name"
                       size="lg"
-                      class="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      className="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="Doe"
                       required
                     />
                   </div>
                 </div>
-                <div class="mb-6">
-                  <label Hrmlfor="email" class="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
-                    Nomor Ponsel (Terhubung Whatsapp)<a class="text-red-600">*</a>
+                <div className="mb-6">
+                  <label Hrmlfor="email" className="block mb-2 text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    Nomor Ponsel (Terhubung Whatsapp)<a className="text-red-600">*</a>
                   </label>
                   <input
                     type="number"
                     id="phone-input"
                     size="lg"
-                    class="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="1234-5678-90"
                     required
                   />
                 </div>
-                <div class="mb-6">
-                  <label Hrmlfor="password" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
-                    Password<a class="text-red-600">*</a>
+                <div className="mb-6">
+                  <label Hrmlfor="password" className="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    Password<a className="text-red-600">*</a>
                   </label>
                   <div className="relative container mx-auto ">
                     <input
                       id="password"
                       size="lg"
                       type={isPasswordVisible ? "text" : "password"}
-                      class="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 py-2.5 text-base  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      className="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-4 py-2.5 text-base  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="•••••••••"
                     />
                     <button className=" absolute inset-y-0 right-0 flex items-center px-4 text-gray-600" onClick={togglePasswordVisibility}>
@@ -107,14 +107,14 @@ export default function Daftar() {
                     </button>
                   </div>
                 </div>
-                <div class="mb-6">
-                  <label Hrmlfor="confirm_password large" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
-                    Pertanyaan Keamanan<a class="text-red-600">*</a>
+                <div className="mb-6">
+                  <label Hrmlfor="confirm_password large" className="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    Pertanyaan Keamanan<a className="text-red-600">*</a>
                   </label>
                   <select
                     id="large"
                     size="lg"
-                    class="block w-full px-4 py-3 text-base text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="block w-full px-4 py-3 text-base text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   >
                     <option selected>- Pilih -</option>
                     <option value="US">United States</option>
@@ -122,30 +122,30 @@ export default function Daftar() {
                     <option value="FR">France</option>
                     <option value="DE">Germany</option>
                   </select>
-                  <p class="text-xs italic font-sans font-normal text-cyan-700 dark:text-white">Digunakan apabila lupa password</p>
+                  <p className="text-xs italic font-sans font-normal text-cyan-700 dark:text-white">Digunakan apabila lupa password</p>
                 </div>
-                <div class="mb-6">
-                  <label Hrmlfor="large" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
-                    Jawaban<a class="text-red-600">*</a>
+                <div className="mb-6">
+                  <label Hrmlfor="large" className="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    Jawaban<a className="text-red-600">*</a>
                   </label>
                   <input
                     type="date"
                     id="date"
                     size="lg"
-                    class="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Doe"
                     required
                   />
                 </div>
-                <div class="grid gap-6 mb-6 md:grid-cols-2">
+                <div className="grid gap-6 mb-6 md:grid-cols-2">
                   <div>
-                    <label Hrmlfor="first_name" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    <label Hrmlfor="first_name" className="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
                       Isi jika ada Kode Referral
                     </label>
                     <select
                       id="large"
                       size="lg"
-                      class="block w-full px-4 py-3 text-base text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      className="block w-full px-4 py-3 text-base text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     >
                       <option selected>- Pilih -</option>
                       <option value="US">United States</option>
@@ -155,62 +155,62 @@ export default function Daftar() {
                     </select>
                   </div>
                   <div>
-                    <label Hrmlfor="last_name" class="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
+                    <label Hrmlfor="last_name" className="block mb-2  text-sm font-sans font-medium text-lime-900 dark:text-white">
                       -
                     </label>
                     <input
                       type="text"
                       id="last_name"
                       size="lg"
-                      class="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      className="bg-gray-50 border border-gray-300 text-gray-900  rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="Doe"
                       required
                     />
                   </div>
                 </div>
-                <div class="flex items-start mb-6">
-                  <div class="flex items-center h-5">
+                <div className="flex items-start mb-6">
+                  <div className="flex items-center h-5">
                     <input
                       id="remember"
                       type="checkbox"
                       value=""
-                      class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                      className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
                       required
                     />
                   </div>
-                  <label Hrmlfor="remember" class="ms-2  text-sm font-sans font-medium text-cyan-900 dark:text-gray-300">
+                  <label Hrmlfor="remember" className="ms-2  text-sm font-sans font-medium text-cyan-900 dark:text-gray-300">
                     Saya Menyetujui Syarat dan Ketentuan Serta Kebijakan Privasi dari Fonterra Brands Indonesia. <br />
-                    <a href="#" class="text-red-600 underline hover:text-blue-600 dark:text-blue-500">
+                    <a href="#" className="text-red-600 underline hover:text-blue-600 dark:text-blue-500">
                       Cek disini
                     </a>
                     &nbsp;Untuk info lebih lanjut
                   </label>
                 </div>
-                <div class="flex items-start mb-6">
-                  <div class="flex items-center h-5">
+                <div className="flex items-start mb-6">
+                  <div className="flex items-center h-5">
                     <input
                       id="remember"
                       type="checkbox"
                       value=""
-                      class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                      className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
                       required
                     />
                   </div>
-                  <label Hrmlfor="remember" class="ms-2  text-sm font-sans font-normal text-cyan-900 dark:text-gray-300">
+                  <label Hrmlfor="remember" className="ms-2  text-sm font-sans font-normal text-cyan-900 dark:text-gray-300">
                     Saya bersedia menerima segala penawaran, promosi, sample, dan komunikasi pemasaran terbaru lainnya dari Fonterra Brands Indonesia melalui email, SMS, Telepon, dan Whatsapp.
                   </label>
                 </div>
-                <div class="grid gap-6 mb-6 md:grid-cols-2">
+                <div className="grid gap-6 mb-6 md:grid-cols-2">
                   <button
                     type="back"
-                    class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg  w-full sm:w-auto px-5 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg  w-full sm:w-auto px-5 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     Kembali
                   </button>
 
                   <button
                     type="submit"
-                    class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg  w-full sm:w-auto px-5 py-34text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg  w-full sm:w-auto px-5 py-34text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     Lanjut
                   </button>

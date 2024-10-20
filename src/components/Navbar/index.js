@@ -96,7 +96,7 @@ const Navbar = () =>{
                                 </a>
                             </Link>
 
-                            <Link href="/hadiah" legacyBehavior>
+                            <Link href="/kataloghadiah/filledstate" legacyBehavior>
                                 <a
                                 className="px-3 py-2 rounded-md  font-semibold 
                                     text-blue-950 bg-cy hover:bg-cyan-500 hover:text-white
@@ -115,8 +115,18 @@ const Navbar = () =>{
                                 Belanja
                                 </a>
                             </Link>
+                            <Link href="/produk_tanpa_login" legacyBehavior>
+                            <a
+                                className="px-3 py-2 rounded-md  font-semibold 
+                                    text-blue-950 bg-cy hover:bg-cyan-500 hover:text-white
+                                "
+                                >
+                                Produk
+                                </a>
+                            </Link>
+                            
                             {/* Dropdown for Products */}
-                            <div className="relative">
+                            {/* <div className="relative">
                             <button
                                 onClick={() => setDropdownProductsOpen(!dropdownProductsOpen)}
                                 className="rounded-md  font-semibold 
@@ -136,7 +146,7 @@ const Navbar = () =>{
                                 </div>
                                 </div>
                             )}
-                            </div>
+                            </div> */}
 
                             
                         </div>
@@ -149,7 +159,7 @@ const Navbar = () =>{
                             
                 <div className="hidden md:flex flex-wrap gap-6 items-center self-stretch my-auto min-w-[240px] max-md:max-w-full">
                     <SearchBar/>
-                    <Link href="/uploadstruk" 
+                    <Link href="/foto_struk" 
                         className="text-white self-stretch px-3 py-2.5 my-auto bg-yellow-500 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-200  
                         font-semibold rounded-lg text-xs  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none
                          dark:focus:ring-blue-800">Upload Struk
